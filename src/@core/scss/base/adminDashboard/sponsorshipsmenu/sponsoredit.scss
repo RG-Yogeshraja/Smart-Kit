@@ -1,0 +1,240 @@
+.eventdetails_text {
+    font-family: 'Asap';
+    font-style: normal;
+
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #003B4A;
+}
+
+.reactEasyCrop_CropArea {
+    color: white !important;
+    border-radius: 30px;
+}
+
+.eventdetails_bolderheading {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* identical to box height */
+
+    color: #003B4A;
+}
+
+.eventdetails_bolde {
+
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.eventdetail_smaller {
+    text-align: left;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #677E84;
+}
+
+.post_edit {
+
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    color: #003B4A;
+}
+
+.eventdetail_placeholder {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    color: #003B4A;
+}
+
+.calen {
+    border: 1px solid #ECECEC !important;
+}
+
+.event-detail {
+    max-width: 67%;
+}
+
+.sponsorship_dark {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-decoration-line: underline;
+
+    color: #003B4A;
+}
+
+.sponsorship_innertext::placeholder {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    color: #858585 !important;
+}
+
+.sponsorpopup-textheader {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    color: #003B4A;
+}
+
+.sponsorship_innertext {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+    opacity: 0.5;
+    color: #858585 !important;
+}
+
+.sponsorship_innertext {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 25px;
+    border: 1px solid #ECECEC !important;
+    color: #003B4A;
+
+
+}
+
+.sponsorship_inputText {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #003B4A;
+}
+
+.sponsorship_inputText::placeholder {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #858585;
+}
+
+
+#category:focus option:first-of-type {
+    display: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.event_align {
+    appearance: none;
+}
+
+.sponsorship_aligns {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: url('/src/assets/images/dashboardimg/uparrows.png');
+    background-size: 13px;
+    background-position: 92%;
+
+}
+
+.event_test {
+    outline: none;
+    border: none
+}
+
+.post_panel {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #677E84;
+}
+
+.form_boxText {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #858585;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.sponsorPostImage {
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+}
+
+.sponsorPostText {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #003B4A;
+}
+
+.sponsorPostText::placeholder {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #858585;
+}
+
+.sponsorEventText2 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+}

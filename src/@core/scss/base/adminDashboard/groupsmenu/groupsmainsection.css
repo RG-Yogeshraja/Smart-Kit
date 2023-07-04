@@ -1,0 +1,543 @@
+.group-navtabs {
+    width: 100%;
+}
+
+.grouptabheading-active1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #003B4A;
+    padding-bottom: 10px !important;
+}
+
+.grouptabheading-active1:hover {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #003B4A !important;
+}
+
+.activegroup-navLink {
+    margin-right: 12px !important;
+    padding-bottom: 10px;
+}
+
+.group-mainTab {
+    margin-right: 22px !important;
+}
+
+.add-infobtn {
+    width: 41px;
+    height: 41px;
+    /* padding: 5px; */
+    background: #95E1BF;
+    border-radius: 50%;
+}
+
+.activegroup-mainsection {
+    background: #FFFFFF;
+    /* border: 1.5px solid #95E1BF; */
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15) !important;
+    border-radius: 20px;
+    /* padding-bottom: 10px !important; */
+
+}
+
+
+.assignbtn-section {
+    margin-left: auto;
+}
+
+.sponsor-hintsocialicon {
+    background: rgba(110, 201, 161, 0.12);
+    /* opacity: 0.8; */
+    border-radius: 10px;
+    padding: 9px 9px;
+}
+
+/* .pendinggroupbtn-section{
+    margin-left: auto;
+} */
+
+/* active tab top section */
+.group-textspanbold1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #003B4A;
+
+}
+
+.group-activeinfo {
+    padding-top: 2px;
+}
+
+.group-textspanlight1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #677E84;
+}
+
+.group-textspanlink1 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #677E84;
+
+}
+
+.group-textspanbold2 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #003B4A;
+}
+
+.group-textspanlight2 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #677E84;
+
+}
+
+.group-assignbtn {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #003B4A;
+
+
+
+    /* flex-direction: row; */
+    padding: 0px 16px;
+    gap: 10px;
+
+    /* position: absolute; */
+    /* width: 132px;
+height: 40px; */
+    /* left: 786px;
+top: 343px; */
+    border: none;
+    background: #95E1BF;
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+/* group members tab */
+.group-membername {
+    padding-left: 16px;
+}
+
+.groups-memberslist {
+    /* padding-left: 16px; */
+    padding-right: 0px !important;
+}
+
+.group-btnspan1 {
+    font-family: 'Asap';
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    Width: 58px;
+    Height: 26px;
+    background: linear-gradient(145.71deg, #1C7086 6.46%, #074E60 93.55%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(110, 201, 161, 0.1);
+    border-radius: 7px;
+}
+
+.eventAdminBtn {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    /* Width: 58px;
+    Height: 26px; */
+    background: linear-gradient(145.71deg, #1C7086 6.46%, #074E60 93.55%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(110, 201, 161, 0.1);
+    border-radius: 7px;
+}
+
+.groupmember-menuoption {
+    padding-right: 23px;
+}
+
+.group-editBtn {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #003B4A;
+    border: 1px solid #003B4A;
+    border-radius: 8px;
+    padding: 6px 22px !important;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 7px;
+
+}
+
+/* group post tab */
+/* group-post: scroll bar customization  */
+.post-scrollbar {
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.post-force-overflow {
+    min-height: 300px;
+}
+
+#post-style::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 59, 74, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 59, 74, 0.1);
+}
+
+#post-style::-webkit-scrollbar {
+    width: 4px;
+}
+
+#post-style::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #003B4A;
+}
+
+/* group-post: scroll bar customization ends */
+
+.group-postitem {
+    padding: 0px 35px 30px 35px;
+}
+
+.grouppost-userprofile {
+    padding-left: 0px;
+}
+
+.group-textspanbold3 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #003B4A;
+
+}
+
+.group-textspanlight3 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+
+    color: #003B4A;
+
+}
+
+.grouppost-profilesection {
+    padding-left: 10px;
+}
+
+.grouppost-username {
+    padding: 2px 0px;
+}
+
+.group-posttime {
+    padding: 3px 0px;
+}
+
+/* group-event */
+.group-eventimg {
+    padding-top: 4px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    height: 205px;
+    width: 265px;
+    margin-right: 5px
+}
+
+.groupevent-contentSection {
+    padding-left: 20px;
+}
+
+.group-hintsocial-whiteimg {
+    background: rgba(136, 136, 136);
+    backdrop-filter: blur(10.5px);
+    padding: 1px;
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.d-imagedefault {
+    background-color: rgb(0, 59, 74);
+    border-radius: 11px;
+    margin: 6px;
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.group-userevent-verticalmoreBtn {
+    position: absolute;
+    top: 155px;
+    right: 8%
+}
+
+/* group-event: scroll bar customization  */
+.event-scrollbar {
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.event-force-overflow {}
+
+#event-style::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 59, 74, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 59, 74, 0.1);
+}
+
+#event-style::-webkit-scrollbar {
+    width: 4px;
+}
+
+#event-style::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #003B4A;
+}
+
+/* group-event: scroll bar customization ends */
+
+.group-activeeventitem {
+    padding-bottom: 17px;
+}
+
+.groupevent-attendingcount {
+    padding-top: 3px;
+    margin-bottom: 44px;
+}
+
+/* report */
+.group-reportsection {
+    background: #FFFFFF;
+    /* opacity: 0.8; */
+    border: 0.5px solid rgba(0, 59, 74, 0.8);
+    box-shadow: 0px 5px 20px rgba(40, 94, 69, 0.1);
+    border-radius: 16px;
+    padding: 7px;
+}
+
+.group-textspanbold4 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+}
+
+.group-textspanlight4 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #003B4A;
+}
+
+.group-reportitem {
+    padding-top: 6px;
+    padding-bottom: 15px;
+}
+
+.groupreport-innersection {
+    padding-left: 25px;
+}
+
+
+/* assign admin css */
+.group-textspanbold5 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #003B4A;
+
+}
+
+.group-textspanbold6 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #003B4A;
+}
+
+/* assign admin popup - scroll bar customization ends*/
+.assignadmin-custom-modal {
+    width: 48%;
+}
+
+.assignadmin-modalcontent {
+    padding: 38px 15px 10px 30px;
+}
+
+.assignadmin-scrollbar {
+    /* height: 320px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.assignadmin-force-overflow {
+    /* min-height: 450px; */
+}
+
+#assignadmin-scrollstyle::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 59, 74, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 59, 74, 0.1);
+}
+
+#assignadmin-scrollstyle::-webkit-scrollbar {
+    width: 6px;
+}
+
+#assignadmin-scrollstyle::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #003B4A;
+}
+
+
+.event-textspanbold5 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #003B4A;
+
+}
+
+.addEventBtn {
+    cursor: pointer !important;
+}
+
+/* dropdown-toggle menu customization */
+/* .dropdown-section .dropdown .dropdown-toggle {
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-toggle:active {
+    background-color: #FFFFFF !important;
+}
+
+.dropdown-menu {
+    transform: translate3d(-72px, -20px, 0px) !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px;
+    box-shadow: none !important;
+    background: #FFFFFF !important;
+    border: 1px solid rgba(0, 59, 74, 0.1);
+    box-shadow: 0px 5px 20px rgba(40, 94, 69);
+    border-radius: 10px;
+    width: max-content !important;
+    min-width: 100% !important;
+}
+
+.dropdowntoggle-item {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+}
+
+.dropdowntoggle-item:hover {
+    background-color: transparent;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+} */
+
+.ishintSocialEventLogo {
+    background: rgba(110, 201, 161, 0.12);
+    /* opacity: 0.8; */
+    border-radius: 7px;
+    padding: 3px;
+
+}

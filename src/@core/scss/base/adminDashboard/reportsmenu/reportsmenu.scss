@@ -1,0 +1,323 @@
+.reports-centerPanel {
+    width: 61%;
+}
+
+.reports-rightPanel {
+    width: 39%;
+}
+
+.textspanbold31 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #003B4A;
+}
+
+.textspanbold30 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #003B4A;
+}
+
+.textspanbold32 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #003B4A;
+}
+
+.textspanlight30 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #677E84;
+}
+
+.textspanbold33 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #003B4A;
+}
+
+.textspanbold34 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #003B4A;
+}
+
+
+.textspanbold35 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #003B4A;
+}
+
+.reports-usermail {
+    text-decoration: none;
+}
+
+.reports-usermail:hover {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #677E84;
+}
+
+.calender1-section {
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 14px;
+}
+
+.calender_text_placeholder {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+    opacity: 0.5;
+    color: #858585 !important;
+}
+
+.form_box {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* identical to box height */
+
+    color: #003B4A;
+
+
+}
+
+.eventdetail_smaller {
+    text-align: left;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #677E84;
+}
+
+.textspanlight31 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #677E84;
+}
+
+.btn5 {
+    background: #95E1BF;
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+    border-radius: 12px;
+    border: none;
+}
+
+.notificationCount-section {
+    position: relative;
+    top: -33px;
+    background: #95E1BF;
+    border: 1px solid #003B4A;
+    border: 50%;
+}
+
+.textspanbold36 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #003B4A;
+}
+
+.notificationCount {
+    position: absolute;
+    top: -7px;
+    border: 1px solid #003B4A;
+    border-radius: 11px;
+    right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Asap';
+    background: #95E1BF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #003B4A;
+}
+
+
+
+
+
+
+//sidepanel css
+.report-sidePanelSection {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+    border-radius: 20px;
+    min-height: 800px !important;
+}
+
+.reports-crewSection {
+    background: rgba(180, 222, 201, 0.2);
+    border-radius: 20px;
+}
+
+.hrline5 {
+    border: 1px solid rgba(149, 225, 191, 0.4);
+}
+
+.reports-sendMessageBtn {
+    // right: 55px;
+    // position: relative;
+    // top: 8px;
+    display: flex;
+    margin-left: auto;
+    right: 22px;
+    position: relative;
+    top: 67px;
+}
+
+.reports-crewprofile {
+    border-radius: 25%;
+    width: 22%;
+}
+
+.reports-messageInput {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 14px;
+    padding: 0.79rem 1rem;
+
+}
+
+.reports-messageInput::placeholder {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #677E84;
+
+}
+
+.reports-messageInput:focus {
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 14px;
+    box-shadow: none !important;
+    padding: 0.79rem 1rem !important;
+
+}
+
+
+
+/* ------------------Reports message dropdown--------------------*/
+
+.reportsMessage-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.reportsMessage-dropdown .dropdown-toggle {
+    padding: 0px !important;
+}
+
+.reportsMessage-dropdown .dropdown-toggle:focus {
+    background-color: #FFFFFF !important;
+}
+
+.reportsMessage-dropdown .dropdown-menu[data-popper-placement=bottom-start] {
+    margin: 0px !important;
+}
+
+.reportsMessage-dropdownitem {
+    padding: 5px 5px 5px 10px;
+}
+
+.reportsMessage-dropdownitem:hover {
+    background-color: transparent;
+}
+
+.reportsMessage-dropdown .dropdown-menu {
+    min-width: 152px !important;
+    max-width: 100px !important;
+    background: #FFFFFF;
+    border: 1px solid rgba(53, 97, 108, 0.2) !important;
+    box-shadow: 0px 5px 20px rgba(40, 94, 69, 0.1) !important;
+    border-radius: 10px !important;
+    transform: translate3d(-1px, 45px, 0px) !important;
+    padding: 2px 0px;
+}
+
+.reportsMessage-dropdownmenu::after {
+    content: '';
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: -4px;
+    left: 87% !important;
+    border-top: 1px solid rgba(53, 97, 108, 0.2);
+    border-left: 1px solid rgba(53, 97, 108, 0.2);
+    transform: rotate(45deg);
+    border-top-left-radius: 2px;
+}
+
+.reportsMessage-dropdownitemName {
+    padding-left: 6px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+}
+
+//drop down customzation ends  

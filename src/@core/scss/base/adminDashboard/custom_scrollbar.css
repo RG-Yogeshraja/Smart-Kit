@@ -1,0 +1,38 @@
+.userFriendsList_scrollbar {
+    height: 210px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 2px
+}
+
+#style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 59, 74, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 59, 74, 0.1);
+}
+
+#style-2::-webkit-scrollbar {
+    width: 4px;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #003B4A;
+}
+
+.inActiveUserList_scrollbar {
+    height: 290px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 2px
+}
+
+/* ******analytics parent filter section start********* */
+.analyticsParentFilter_scrollbar {
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 10px !important;
+}
+
+/* ******analytics parent filter section start********* */

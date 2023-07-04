@@ -1,0 +1,117 @@
+.header_name{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #003B4A;
+
+}
+.is-invalid{
+    border:1px solid #FF7E7E !important;
+  }
+.invalid-feedback{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: -0.3px;
+
+color: #FF7E7E !important;
+  }
+.width_li{
+font-size: x-large;
+ }
+.flexs{
+    margin-top: 5px;  
+}
+.btn-update{
+    background: #95E1BF;
+box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+border-radius: 12px;
+height:56px;
+width:152px;
+border:none;
+}
+.btn_colors{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #003B4A;
+}
+.cardbar{
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+border-radius: 20px;
+
+}
+.name_update{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #858585;
+
+}
+.text_field{
+    
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    
+    color: #003B4A;
+    }
+    .formControl{
+        margin-top: 5px;
+        /* Height:56px; */
+        /* padding:0px; */
+        }
+        .placeholder_profile{
+            font-family: 'Asap';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+margin-left: -12px;
+letter-spacing: -0.3px;
+
+color: #003B4A;
+        }
+        .btn_update{
+            width: 253px;
+height: 65px;
+border: none;
+
+background: #95E1BF;
+border-radius: 10px;
+        }
+        .user_detail{
+            font-family: 'Asap';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
+        }

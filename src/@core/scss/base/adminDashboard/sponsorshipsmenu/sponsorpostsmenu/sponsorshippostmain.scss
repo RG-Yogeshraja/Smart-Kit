@@ -1,0 +1,201 @@
+//body section
+.sponsershipPost-bodycenter-panel {
+    width: 64%;
+}
+
+.sponsershipPost-bodyright-panel {
+    width: 36%;
+}
+
+
+.sponsor-textspanlight11 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #677E84;
+}
+
+.sponsor-textspanbold23 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #003B4A;
+}
+
+.sponsor-textspanbold24 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #003B4A;
+}
+
+.sponsor-textspanlight12 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #003B4A;
+}
+
+.postevent-expressionSection {
+    transform: translateY(-6px);
+}
+
+.sponsor-deletedpostmain-selected {
+    background: #FFFFFF;
+    border: 1.5px solid #95E1BF;
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+    border-radius: 20px;
+}
+
+.sponsor-deletedpostmain {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+    border-radius: 20px;
+}
+
+.sponsor-textspanlight14 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #677E84;
+}
+
+.postcomments-textspan {
+    font-family: 'Asap';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sponsor-textspanlight15 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #93A5AA;
+}
+
+
+/* post comments - scroll bar customization */
+
+.postcomments-scrollbar {
+    height: 450px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.postcomments-force-overflow {
+    min-height: 450px;
+}
+
+#postcomments-style::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 59, 74, 0.1);
+    border-radius: 30px;
+    background-color: rgba(0, 59, 74, 0.1);
+}
+
+#postcomments-style::-webkit-scrollbar {
+    width: 5px;
+}
+
+#postcomments-style::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: #003B4A;
+}
+
+// scroll bar customization ends
+.postcomments-header {
+    background: #FFFFFF;
+    // opacity: 0.8;
+    box-shadow: 0px 5px 20px rgba(40, 94, 69, 0.1);
+    border-radius: 20px;
+}
+
+.postcomments-custommodal{
+    min-width:58% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------userblockedbytab tab --------------------*/
+.postcomments-dropdown .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .postcomments-dropdown .dropdown-toggle {
+    padding: 0px !important;
+  }
+  
+  
+  .postcomments-dropdown .dropdown-toggle:focus {
+    background-color: #FFFFFF !important;
+  }
+  
+  .postcomments-dropdown .dropdown-menu[data-popper-placement=bottom-start] {
+    margin: 0px !important;
+  }
+  
+  .postcomments-dropdownitem {
+    padding: 5px 5px 5px 10px;
+    /* width: 50px !important; */
+  }
+  
+  .postcomments-dropdownitem:hover {
+    background-color: transparent;
+  }
+  
+  .postcomments-dropdown .dropdown-menu {
+    min-width: 108px !important;
+    max-width: 105px !important;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 59, 74, 0.2) !important;
+    box-shadow: 0px 5px 20px rgba(40, 94, 69, 0.1) !important;
+    border-radius: 10px !important;
+    transform: translate3d(-20px, 27px, 0px) !important;
+    padding: 2px 0px;
+  
+  }
+  
+  .postcomments-dropdownitemName {
+    padding-left: 6px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+  }

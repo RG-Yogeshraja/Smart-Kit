@@ -1,0 +1,21 @@
+
+::placeholder {
+        
+    /* Firefox, Chrome, Opera */
+    color:white !important;
+    
+}
+  
+:-ms-input-placeholder {
+    
+    /* Internet Explorer 10-11 */
+    color:white !important;
+    
+}
+  
+::-ms-input-placeholder {
+    
+    /* Microsoft Edge */
+    color:white !important;
+    
+}

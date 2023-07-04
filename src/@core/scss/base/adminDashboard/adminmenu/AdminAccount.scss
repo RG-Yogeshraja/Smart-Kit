@@ -1,0 +1,511 @@
+.invalid-feedback {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: -0.3px;
+
+    color: #FF7E7E !important;
+}
+
+input:-webkit-autofill {
+
+    -webkit-text-fill-color: #003B4A !important;
+
+}
+
+//   .autos{
+//     font-family: 'Asap';
+// font-style: normal;
+// font-weight: 500;
+// font-size: 16px;
+// line-height: 18px;
+
+// color: #003B4A;
+//   }
+.is-invalid {
+    border: 1px solid #FF7E7E !important;
+}
+
+.flex-layout {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin_text {
+    appearance: none;
+    background-repeat: no-repeat;
+    background-image: url('/src/assets/images/dashboardimg/uparrows.png');
+    background-size: 11px;
+    background-position: 92%;
+
+}
+
+.bigger {
+    font-size: 16px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #003B4A;
+    font-weight: 500;
+    background-color: rgba(110, 201, 161, 0.15);
+}
+
+.usersettings {
+    margin-left: 2px;
+    margin-right: 8px;
+    width: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+    width: 100%;
+}
+
+.user-name {
+    margin-top: 2px;
+}
+
+.dropdownss {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    background-image: none !important;
+}
+
+.nav .dropdown-toggle:not(.active)::after {
+    background-image: none !important;
+}
+
+.dropdownss:active {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.dropdownss:focus {
+    background-color: transparent !important;
+    background-image: none !important;
+
+}
+
+.aligns {
+    padding: 12px;
+}
+
+.register-form {
+    margin-top: 7px;
+}
+
+.extraalignment {
+    margin-left: 11px;
+}
+
+.image {
+    float: right;
+}
+
+.divalign {
+    margin-top: -11px;
+
+}
+
+.topalign {
+    margin-top: -35px;
+    padding: 22px;
+
+}
+
+.fontstyles {
+    font-family: "Asap";
+    font-weight: 400;
+    color: #003B4A;
+    font-size: 12px;
+    margin-left: -8px;
+}
+
+.imagesize {
+    position: absolute;
+    right: 58px;
+    width: 19px;
+    bottom: 164px;
+}
+
+.password2 {
+    position: absolute;
+    right: 28px;
+    width: 19px;
+    bottom: 283px;
+}
+
+.password {
+    position: absolute;
+    right: 28px;
+    width: 15px;
+    bottom: 261px;
+}
+
+.pass {
+
+    right: 57px;
+    position: absolute;
+    width: 19px;
+    bottom: 266px;
+}
+
+.imagesize1 {
+    position: absolute;
+    width: 15px;
+    bottom: 179px;
+    right: 28px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    background-color: #95E1BF !important;
+    color: #003B4A !important;
+    border-color: #95E1BF !important;
+}
+
+.formControl {
+    height: 56px;
+    padding: 0.571rem 1rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8d6de;
+    border-radius: 14px;
+    width: 100%;
+    outline: none;
+    color: #003B4A;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.headingtag {
+    color: #003B4A;
+    font-family: "Asap";
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.tnt {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+    border-radius: 20px;
+}
+
+.spantag {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #003B4A;
+    margin-top: 10px;
+}
+
+.alignments {
+    margin-right: -30px;
+}
+
+.spans {
+    color: #003B4A;
+    font-family: "Asap";
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.form-group {
+    margin-bottom: 19px;
+
+}
+
+label {
+    margin-left: 7px;
+    color: #858585;
+    font-family: "Asap";
+    font-size: 14px;
+
+    margin-bottom: 5px;
+}
+
+.flexs {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.padding {
+    padding: 7px;
+    background: linear-gradient(145.71deg, rgba(28, 112, 134, 0.2) 6.46%, rgba(7, 78, 96, 0.2) 93.55%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(110, 201, 161, 0.1);
+    border-radius: 7px;
+}
+
+// .marginaligns{
+//     margin-left:13px;
+// }
+.marginalign {
+    margin-left: 13px;
+    color: #003B4A;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.texts {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 18px;
+
+    color: #003B4A;
+}
+
+.borderdesign {
+    border-radius: 12px;
+    padding: 11px;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+}
+
+.borderdesignss {
+    border-radius: 12px;
+    padding: 11px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 132px;
+    height: 53px;
+
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+}
+
+
+.cards {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1) !important;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.bodypopuptwo {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #003B4A;
+
+
+    flex-grow: 1;
+
+}
+
+::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    color: #003B4A;
+    opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+
+    /* Internet Explorer 10-11 */
+    color: #003B4A;
+    opacity: 0.5;
+}
+
+::-ms-input-placeholder {
+
+    /* Microsoft Edge */
+    color: #003B4A;
+    opacity: 0.5;
+}
+
+.popover .popover-arrow {
+    display: none !important;
+}
+
+.popover-body {
+    padding: 0px;
+}
+
+.divpop {
+    background: #FFFFFF;
+    border: 1px solid #003B4A;
+    border-radius: 15px;
+    width: 263px;
+    margin-bottom: -7px;
+}
+
+.tx {
+    padding: 11px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.3px;
+
+    color: #677E84;
+    // width:17%;
+    // height:2%;
+}
+
+.popover {
+    margin-left: -48px !important;
+    width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.dispflex {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.popover .popover-body {
+    font-family: 'Asap' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 16px;
+    letter-spacing: -0.3px;
+
+    color: #677E84 !important;
+    padding: 7px;
+
+}
+
+.bodypopup {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #003B4A;
+    font-family: 'Asap';
+    font-style: normal;
+    letter-spacing: -0.3px;
+    line-height: 1;
+}
+
+.btnstyles {
+
+    padding: 12px;
+    height: 60px;
+    width: 200px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #003B4A;
+    color: #003B4A;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btnstyledetails {
+    width: 200px;
+    height: 60px;
+    padding: 12px;
+    background-color: #95E1BF !important;
+    border: 1px solid #95E1BF !important;
+    border-radius: 12px;
+    text-align: center;
+    color: #003B4A;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.d {
+    flex-direction: column;
+}
+
+
+.btn_update {
+
+    height: 60px;
+}
+
+
+.btn-cancel {
+    width: 311px;
+    height: 60px;
+
+
+    border: 1px solid #003B4A;
+    filter: drop-shadow(0px 10px 20px rgba(21, 82, 64, 0.1));
+    border-radius: 12px;
+}
+
+.cancelBtn {
+    font-family: 'Asap';
+    font-style: normal;
+    padding: 12px;
+    width: 311px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #003B4A;
+    color: #003B4A;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cancelBtn2 {
+    font-family: 'Asap';
+    font-style: normal;
+    // padding: 12px;
+    // width: 311px;
+    // height: 60px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #003B4A;
+    color: #003B4A;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logout-dropdown .dropdown-menu[data-popper-placement]:not([data-popper-placement^='top-']) {
+    top: 3.9rem !important;
+}
+
+.spanText-noData{
+    font-family: "Asap";
+    font-style: "normal";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #003B4A;
+}

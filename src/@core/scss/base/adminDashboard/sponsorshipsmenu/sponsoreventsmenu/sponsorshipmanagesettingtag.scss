@@ -1,0 +1,117 @@
+
+.font_style_top{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #003B4A;
+}
+.tags_boldertext{
+    font-family: 'Asap';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+
+color: #003B4A;
+
+
+}
+
+.clear_filter{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-decoration-line: underline;
+    
+    color: #003B4A;
+    }
+.nomore{
+    border-radius: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: none;
+    width:526px;
+    height:50px;
+    border-color: none;
+    border-bottom: 1px solid #CCD8DB;
+    outline: none;
+
+
+}
+.position_val
+{
+    position: absolute;
+    right:5px;
+    top:-1px;
+}
+.bold_text{
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #003B4A;
+
+}
+.btn_bold{
+
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #003B4A;
+
+
+
+
+}
+.small_text10{
+
+
+font-family: 'Asap';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #003B4A;
+
+
+}
+.btn_textcolor{
+    background: #95E1BF;
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+    border:none;
+    border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height:40px;
+
+}
+
+.modalss_width .modal
+{
+    --bs-modal-width: 665px! important;
+}

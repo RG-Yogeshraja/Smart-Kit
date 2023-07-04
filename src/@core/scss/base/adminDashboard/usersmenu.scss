@@ -1,0 +1,167 @@
+.users-mainsection {
+    background: #FFFFFF;
+    border: 1.5px solid #95E1BF;
+    box-shadow: 0px 4px 40px rgba(40, 94, 69, 0.15);
+    border-radius: 20px;
+}
+
+.users-friendssection {
+    max-height: 210px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.users_detail{
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    
+    color: #003B4A;
+}
+// .users-navlink {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 18px;
+//     color: #003B4A;
+// }
+
+// .users-navlink:hover {
+//     color: #003B4A !important;
+// }
+
+// .textspan1 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 18px;
+//     letter-spacing: -0.3px;
+//     color: #003B4A;
+// }
+
+// .textspan2 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 18px;
+//     letter-spacing: -0.3px;
+//     color: #003B4A;
+// }
+
+// .textspan3 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 16px;
+//     color: #003B4A;
+// }
+
+// .textspanlight1 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 18px;
+//     color: #677E84;
+// }
+
+// .textspanlight2 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 18px;
+//     letter-spacing: -0.3px;
+//     color: #677E84;
+
+// }
+
+// .textspanlight3 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 12px;
+//     line-height: 14px;
+//     color: #003B4A;
+// }
+
+// .textspanlight4 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 12px;
+//     line-height: 20px;
+//     color: #677E84;
+// }
+
+// .link1 {
+//     font-family: 'Asap';
+//     font-style: normal;
+//     font-weight: 600;
+//     font-size: 16px;
+//     line-height: 18px;
+//     letter-spacing: -0.3px;
+//     text-decoration-line: underline;
+//     color: #003B4A;
+// }
+
+.largebtngreen {
+    gap: 10px;
+    background: #95E1BF;
+    box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+    border-radius: 10px;
+    border: none;
+}
+
+.largebtngreentext {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #003B4A;
+}
+
+
+
+
+.testtmain {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testtmain>* {
+    flex: 1px 1 80px;
+    width: 80px
+}
+
+.section-border1 {
+    background: #FFFFFF;
+    opacity: 1;
+    border: 0.5px solid rgba(0, 59, 74, 0.5);
+    box-shadow: 0px 5px 20px rgba(40, 94, 69, 0.1);
+    border-radius: 16px;
+}
+
+.reportType {
+    padding-bottom: 5px;
+}
+
+.usernameSearch{
+    border: 0px;
+}
+
+.usernameSearch:focus-visible{
+    outline: 0px;
+}

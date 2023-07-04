@@ -1,0 +1,372 @@
+.userEditProfile-customModal {
+  max-width: 65%;
+}
+
+.edit_profile {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  cursor: pointer;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #003B4A;
+}
+
+input[type="range"] {
+  margin: auto;
+  -webkit-appearance: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+::-webkit-slider-runnable-track {
+  width: 7px !important;
+  height: 7px !important;
+  background: rgba(149, 225, 191, 0.15) !important;
+  border-radius: 60px !important;
+}
+
+.input-range__label-container {
+  display: none;
+}
+
+.input-range__track {
+  background: rgba(149, 225, 191, 0.15) !important;
+  border-radius: 60px !important;
+  height: 7px !important;
+}
+
+.input-range__slider {
+  background: #95E1BF !important;
+  border: 2px solid #FFFFFF !important;
+  box-shadow: 0px 4px 4px rgb(121 231 182 / 19%) !important;
+  width: 15px !important;
+  height: 15px !important;
+  /* margin-bottom: -11px; */
+  margin-top: -12px !important;
+}
+
+/*
+   * 1. Set to 0 width and remove border for a slider without a thumb
+   * 2. Shadow is negative the full width of the input and has a spread 
+   *    of the width of the input.
+   */
+.input-range__track--active {
+  background: #95E1BF !important;
+}
+
+::-webkit-slider-thumb {
+  z-index: 999 !important;
+  -webkit-appearance: none !important;
+  position: relative !important;
+  bottom: 5px !important;
+  width: 15px !important;
+  height: 15px !important;
+  /* 1 */
+  background: #95E1BF !important;
+  border-radius: 60px !important;
+  border: 2px solid white !important;
+  box-shadow: -211px 0 0 200px #95E1BF !important;
+  /* 2 */
+  /* 1 */
+}
+
+.text_span {
+  box-shadow: -211px 0 0 200px #95E1BF !important;
+}
+
+.input-within-sliders {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #003B4A;
+}
+
+::-moz-range-track {
+  height: 40px !important;
+  background: #ddd !important;
+}
+
+::-moz-range-thumb {
+  background: #fff !important;
+  height: 40px !important;
+  width: 20px !important;
+  border: 3px solid #999 !important;
+  border-radius: 0 !important;
+  box-shadow: -200px 0 0 200px dodgerblue !important;
+  box-sizing: border-box !important;
+}
+
+// .height{
+// }
+.custom-modal {
+  max-width: 60%
+}
+
+.edit_delete {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: -0.3px;
+  text-decoration-line: underline;
+  color: #003B4A;
+}
+
+.input_toptext {
+  /* Email */
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #677E84;
+}
+
+.text_field {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003B4A;
+}
+
+.edit_subheading {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #003B4A;
+}
+
+.gender_identity {
+  /* Gender Identity */
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #677E84;
+}
+
+.text_style {
+  /* Display age as age range instead */
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #003B4A;
+}
+
+.profile-info {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #003B4A;
+}
+
+.loc-text {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #677E84;
+}
+
+.btn1-style {
+  width: 255px;
+  height: 60px;
+  border: 1px solid #003B4A;
+  background: white;
+  box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+  border-radius: 12px;
+}
+
+.btn2-style {
+  width: 255px;
+  height: 60px;
+  border: none !important;
+  background: #95E1BF;
+  box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+  border-radius: 12px;
+}
+
+.text-update {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  color: #003B4A;
+}
+
+.text-cancel {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  color: #003B4A;
+}
+
+.hello1 #range-slider-gradient .range-slider__thumb[data-lower] {
+  background: red;
+}
+
+.hello1 .single-thumb .range-slider__thumb[data-lower] {
+  width: 0;
+}
+
+.hello1 .single-thumb .range-slider__range {
+  border-radius: 6px;
+}
+
+.hello1 .range-slider .range-slider__thumb {
+  border-radius: 50%;
+  background: #95E1BF;
+  // border: 2px solid #FFFFFF !important;
+  box-shadow: 0px 4px 4px rgb(121 231 182 / 19%) !important;
+}
+
+.hello1 .range-slider .range-slider__range {
+  transform: translate(0, -50%);
+  background: #95E1BF;
+}
+
+.hello1 .range-slider .range-slider__thumb {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+  // border: 2px solid #FFFFFF !important;
+  // box-shadow: 0px 4px 4px rgb(121 231 182 / 19%) !important;
+}
+
+.hello1 .range-slider {
+  cursor: pointer;
+  background: rgba(149, 225, 191, 0.15) !important;
+  border-radius: 4px;
+}
+
+.scrolling .scrollbar {
+  height: 914px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.absolutivelyyy {
+  left: 100px;
+  /* margin-left: 20%; */
+  position: absolute;
+  top: 330px;
+}
+
+.absolutivelyyys {
+  left: 60px;
+  /* margin-left: 20%; */
+  position: absolute;
+  top: 225px;
+}
+
+.absolutivelyyy1 {
+  left: 75px;
+  /* margin-left: 20%; */
+  position: absolute;
+  top: 210px;
+}
+
+.font-white-camera {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.btn1 .modal .modal-header .btn-close:hover,
+.modal .modal-header .btn-close:focus,
+.modal .modal-header .btn-close:active {
+  transform: translate(15px, -2px) !important;
+}
+
+.buttonshow {
+  width: 200px;
+  height: 60px;
+  background: #95E1BF;
+  box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1);
+  border-radius: 12px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  border: none;
+  text-align: center;
+  color: #003B4A;
+}
+
+.btn1 .modal .modal-header .btn-close {
+  transform: translate(-12px, -2px) !important;
+}
+
+.editevent-inputtext {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #003B4A;
+}
+
+.editEventInput::placeholder {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #858585;
+}
+
+.eventURL {
+  background: #FFFFFF !important;
+  border: 1px solid #ECECEC !important;
+  border-radius: 14px !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

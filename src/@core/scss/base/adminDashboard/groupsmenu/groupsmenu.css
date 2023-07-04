@@ -1,0 +1,71 @@
+.bodycenter-panel {
+    width: 65%;
+}
+
+.bodyright-panel {
+    width: 35%;
+}
+
+.span_text {
+    /* For doggos and the people who love them to get together and socialize */
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #003B4A;
+}
+.modal {
+    --bs-modal-width: 780px! important;
+}
+
+.modal1
+{
+ --bs-modal-width: 600px! important;
+    }
+    
+.modalss_width
+{
+    --bs-modal-width: 680px! important;
+}
+.tx {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #003B4A;
+}
+
+.Admins {
+    width: 84px;
+    height: 21px;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #003B4A;
+    /* Inside auto layout */
+}
+
+.small_span {
+    /* Location */
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #003B4A;
+}
+
+.usernameSearch:focus-visible {
+    outline: 0px;
+}
+
+.usernameSearch {
+    border: 0px;
+}

@@ -1,0 +1,222 @@
+.customDropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.customDropdown .dropdown-toggle {
+    padding: 0px !important;
+}
+
+.customDropdown .dropdown-toggle:focus {
+    background-color: #FFFFFF !important;
+}
+
+.customDropdown .dropdown-menu[data-popper-placement=bottom-start] {
+    margin: 0px !important;
+}
+
+.customDropdownitem:hover {
+    background-color: transparent;
+}
+
+.customDropdown .dropdown-menu {
+    background: #FFFFFF;
+    border: 1px solid rgba(53, 97, 108, 0.2) !important;
+    box-shadow: 0px 5px 20px rgba(40, 94, 69, 0.1) !important;
+    border-radius: 10px !important;
+}
+
+.customDropdownmenu::after {
+    content: '';
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(53, 97, 108, 0.2);
+    border-left: 1px solid rgba(53, 97, 108, 0.2);
+    transform: rotate(45deg);
+    border-top-left-radius: 2px;
+}
+
+.textspanlight37 {
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003B4A;
+}
+
+//common properties end
+
+//active groups
+.custompositionw1 .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-66px, 40px, 0px) !important;
+
+}
+
+.custompositionw1even .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-18px, 40px, 0px) !important;
+
+}
+
+.customDropdownmenup1::after {
+    top: -7%;
+    left: 81% !important;
+}
+
+
+//active posts
+
+.custompositionw2 .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-65px, 40px, 0px) !important;
+
+}
+
+.custompositionw2even .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(5px, 40px, 0px) !important;
+
+}
+
+.customDropdownmenup2::after {
+    top: -7%;
+    left: 81% !important;
+}
+
+// groups- active events
+.custompositionw3 .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-66px, 40px, 0px) !important;
+
+}
+
+.custompositionw3even .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(6px, 40px, 0px) !important;
+
+}
+
+.customDropdownmenup3::after {
+    top: -10%;
+    left: 81% !important;
+}
+
+.custompositionw3 .dropdown-toggle {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.custompositionw3 .dropdown-toggle:focus {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+// events module- pending tab
+.custompositionw4 .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-65px, 40px, 0px) !important;
+
+}
+
+.custompositionw4even .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-20px, 40px, 0px) !important;
+
+}
+
+.customDropdownmenup4::after {
+    top: -11%;
+    left: 81% !important;
+}
+
+
+// events module- waitlist tab
+.custompositionw5 .dropdown-menu {
+    min-width: 150px !important;
+    max-width: 150px !important;
+    transform: translate3d(-112px, 40px, 0px) !important;
+
+}
+
+.custompositionw5even .dropdown-menu {
+    min-width: 150px !important;
+    max-width: 150px !important;
+    transform: translate3d(-13px, 40px, 0px) !important;
+
+}
+
+.customDropdownmenup5::after {
+    top: -7%;
+    left: 82% !important;
+}
+
+// users module
+// users friends start
+.custompositionw6 .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-66px, 38px, 0px) !important;
+}
+
+.custompositionw6even .dropdown-menu {
+    min-width: 95px !important;
+    max-width: 95px !important;
+    transform: translate3d(-15px, 33px, 0px) !important;
+}
+
+.customDropdownmenup6::after {
+    top: -10%;
+    left: 81% !important;
+}
+
+.custompositionw6 .dropdown-toggle {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.custompositionw6 .dropdown-toggle:focus {
+    border: none !important;
+    background-color: transparent !important;
+}
+// users friends end
+
+
+// users groups start
+.custompositionw7 .dropdown-menu {
+    min-width: 130px !important;
+    max-width: 130px !important;
+    transform: translate3d(-95px, 40px, 0px) !important;
+}
+
+.custompositionw7even .dropdown-menu {
+    min-width: 130px !important;
+    max-width: 130px !important;
+    transform: translate3d(-95px, 40px, 0px) !important;
+}
+
+.customDropdownmenup7::after {
+    top: -10%;
+    left: 81% !important;
+}
+
+.custompositionw7 .dropdown-toggle {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.custompositionw7 .dropdown-toggle:focus {
+    border: none !important;
+    background-color: transparent !important;
+}
+// users groups end
