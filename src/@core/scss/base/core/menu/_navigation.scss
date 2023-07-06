@@ -24,10 +24,12 @@
   }
   .main-menu.menu-light .navigation > li.open:not(.menu-item-closing) > a, [dir] .main-menu.menu-light .navigation > li.sidebar-group-active > a {
     transform: rotate(90deg) !important;
-    background-color: rgba(110, 201, 161, 0.15) !important
+    // background-color: rgba(110, 201, 161, 0.15) !important
+    background-color: rgb(29, 77, 92) !important
   }
   &.menu-dark {
     @include menu-theme($menu-dark-color, rgba(110, 201, 161, 0.15));
+    // @include menu-theme($menu-dark-color, red);
   }
 
   &.menu-fixed {
@@ -131,7 +133,7 @@ color: #FF7E7E !important;
     &.navigation-main {
       overflow-x: hidden;
       padding-bottom: 0.75rem;
-      border-top:1px solid blue;
+      border-top:1px solid red;
       > li:first-child {
         margin-top: 6.45rem;
         border:none !important;

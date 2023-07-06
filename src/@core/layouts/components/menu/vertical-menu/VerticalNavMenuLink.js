@@ -56,7 +56,7 @@ const VerticalNavMenuLink = ({ item, activeItem }) => {
         {/* ) : */}
         <div className='ms-auto me-1'></div>
         {/* } */}
-        <img className='test_m' src={item.feather} width={item.fw} height={item.fh} onError='this.style.display = "none"'></img>
+        {/* <img className='test_m' src={item.feather} width={item.fw} height={item.fh} onError='this.style.display = "none"'></img> */}
       </LinkTag>
       {/* <ul> */}
         <li style={{ border: "0.1px solid #EDEDED", marginLeft: "27px", width: "78%" }}></li>

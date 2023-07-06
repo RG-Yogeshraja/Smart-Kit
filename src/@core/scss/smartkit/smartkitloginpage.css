@@ -7,14 +7,18 @@
 .loginBtn {
     background: #FFFFFF;
     border-radius: 10px;
-    border-color: #d5a20e !important;
+    border-color: #efd895 !important;
     box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1)
 }
 
 .loginBtn:hover {
-    background: #d5a20e;
+    background: #c99007;
     border-radius: 10px;
     border-color: #d8d6de !important;
     color: #201d1d;
     box-shadow: 0px 10px 20px rgba(21, 82, 64, 0.1)
+}
+
+.customcss{
+    border: 1px solid #efd895;
 }

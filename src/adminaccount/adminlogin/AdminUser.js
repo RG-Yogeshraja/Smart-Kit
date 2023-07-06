@@ -100,8 +100,7 @@ const AdminUser = (props) => {
     // }
 
     // dispatch(adminLogin_APIcall(payload))
-    navigate('/admin/adminAccount')
-
+    navigate('/smartkit/home')  
   }
 
 
@@ -155,15 +154,15 @@ const AdminUser = (props) => {
                 placeholder='Enter email'
                 defaultValue={email}
                 {...register('email')}
-                className={`formControl text_field ${errors.email ? 'is-invalid' : ''}`}
+                className={`formControl customcss text_field ${errors.email ? 'is-invalid' : ''}`}
               />
               <div className="invalid-feedback">{errors.email?.message}</div>
             </div>
             <div className="form-group">
               <label className='smallheader'>Password</label>
-              <div className={`d-flex flexs  ${errors.password ? 'is-invalid' : ''
+              <div className={`d-flex flexs customcss ${errors.password ? 'is-invalid' : ''
                 }`}   >
-                <input className={`forms text_field ${errors.password ? '' : ''
+                <input className={`forms text_field  ${errors.password ? '' : ''
                   }`}
                   name="password"
                   type={val === true ? "password" : "text"}

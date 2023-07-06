@@ -1,76 +1,67 @@
-import React, { useEffect, useState } from "react"
-import MultiRangeSlider from "multi-range-slider-react"
-import Home2 from "./home2";
+import React, { useState } from "react"
+import { Draggable } from "react-drag-reorder"
+import '../../../src/@core/scss/smartkit/home.css'
+import { Star } from 'react-feather'
+import StickyHeadTable from "./home2"
 
-
+// import { Rating } from 'react-feather'
+// 
 
 const SmartKitHome = () => {
-    const [sliderValues, setSliderValues] = useState([]); // Initial values for 3'1" and 7'11"
-    const [minValue, set_minValue] = useState(25);
-    const [maxValue, set_maxValue] = useState(75);
 
-    const handleChange = (values) => {
-        // debugger
+    const [getList, setList] = useState(["Hello", "Hi", "How are you", "Cool"])
 
-        setSliderValues([values.min, values.max])
-        set_minValue(10);
-        set_maxValue(80);
-
-        console.log(sliderValues)
-
-    }
-
-    useEffect(() => {
-        // setSliderValues([values.min, values.max])
-        // handleChange()
-
-
-    }, [sliderValues])
-
-    const formatHeight = (value) => {
-        // debugger
-        const feet = value
-        const inches = value
-        return `${feet}'${inches}"`;
-    }
-
-    const ChangeResult = (e) => {
-        debugger
-        console.log(e)
-    }
 
     return (
         <>
-            <MultiRangeSlider
-                min={35} // Corresponds to 3'1"
-                max={95} // Corresponds to 7'11"
-                step={1}
-                minValue={minValue}
-                maxValue={maxValue}
-                thumbSize={25}
-                // preventWheel={false}
-                onInput={(e) => {
-                    ChangeResult(e)
-                }}
-                values={sliderValues}
-                onChange={handleChange}
-                formatValue={formatHeight}
-            />
-            <div>
-                {/* Min Height: {sliderValues[0]} */}
-            </div>
-            <div>
-                {/* Max Height: {sliderValues[2]} */}
-                {sliderValues.map((data) => {
-                    return (
-                        <>
-                            <span>{data}</span>
-                        </>
-                    )
-                })}
-            </div>
+            <div className="row">
+                <div className="col-8">
+                    <p className="m-0 homeTitle mb-2">Your Open Tasks</p>
+                    <StickyHeadTable></StickyHeadTable>
+                </div>
+                <div className="col-4">
+                    <div className="d-flex flex-column">
+                        <div>
+                            <p className="m-0 homeTitle">Monthly Status</p>
+                        </div>
+                        <div className="">
+                            <div className="row monthyStatusItem-bg mt-2 rounded">
+                                <p className="col-8 py-1 mb-0 d-flex align-items-center">Total hours worked for</p>
+                                <p className="col-4 py-1 mb-0 d-flex align-items-center">125 hours</p>
+                            </div>
+                            <div className="row monthyStatusItem-bg mt-2 rounded">
+                                <p className="col-8 py-1 mb-0 d-flex align-items-center">Total late came in</p>
+                                <p className="col-4 py-1 mb-0 d-flex align-items-center">5 days</p>
+                            </div>
+                            <div className="row monthyStatusItem-bg mt-2 rounded">
+                                <p className="col-8 py-1 mb-0 d-flex align-items-center">Your Ratings</p>
+                                <div className="col-4 py-1 mb-0 d-flex align-items-center">
+                                    <Star size={22} fill={'#D9BC45'} stroke={'#D9BC45'} />
+                                    <Star size={22} fill={'#D9BC45'} stroke={'#D9BC45'} />
+                                    <Star size={22} fill={'#D9BC45'} stroke={'#D9BC45'} />
+                                    <Star size={22} stroke={'#babfc7'} />
+                                    <Star size={22} stroke={'#babfc7'} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <Home2></Home2>
+
+                </div>
+            </div>
+            {/* <div className="flex-container">
+                <div className="taskItem">
+                    <Draggable className="taskItem">
+                        {getList.map((data) => {
+                            return (
+                                <div className="taskItem" style={{ borderRadius: "20px" }}>
+                                    {data}
+                                </div>
+                            )
+                        })}
+                    </Draggable>
+                </div>
+            </div> */}
         </>
     )
 }

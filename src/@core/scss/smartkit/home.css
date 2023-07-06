@@ -1,0 +1,30 @@
+.homePage-leftPanel {
+    width: 70%;
+    background-color: aqua;
+}
+
+.homePage-rightPanel {
+    width: 30%;
+}
+
+.taskItem {
+    border: 2px soild red;
+}
+
+.monthyStatusItem-bg {
+    background-color: #f5f6f7;
+}
+
+.homeTitle {
+    font-family: "Asap";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+
+}
+
+.css-y8ay40-MuiTableCell-root {
+    font-weight: 700 !important;
+}

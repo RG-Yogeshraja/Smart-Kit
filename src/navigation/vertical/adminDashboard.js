@@ -10,28 +10,23 @@ import LegalDocuments from '@src/assets/images/dashboardimg/documenttext.png'
 import Events from '@src/assets/images/dashboardimg/calender.png'
 import rightarrow from '@src/assets/images/dashboardimg/ra.png'
 export default [
-  {
-    icon: speakerIcon,
-    width: "20px",
-    height: "21px",
-    title: 'Admin Accounts',
-
-    badge: 'light-warning',
-
-    feather: rightarrow,
-    fw: "8px",
-    fh: "14px",
-    navLink: '/admin/adminAccount'
-
-
-  },
+  // {
+  //   icon: speakerIcon,
+  //   width: "20px",
+  //   height: "21px",
+  //   title: 'Admin Accounts',
+  //   badge: 'light-warning',
+  //   feather: rightarrow,
+  //   fw: "8px",
+  //   fh: "14px",
+  //   navLink: '/admin/adminAccount'
+  // },
 
   //smartkit lazy path start
   {
     width: "22px",
     height: '22px',
     title: 'Home',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/home'
@@ -40,7 +35,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Team',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/teams'
@@ -49,7 +43,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Projects',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/projects'
@@ -58,7 +51,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Tasks',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/tasks'
@@ -67,7 +59,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Appraisal',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/appraisal'
@@ -76,7 +67,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Productivity',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/productivity'
@@ -85,7 +75,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Leaves',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/leaves'
@@ -94,7 +83,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Late coming',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/latecoming'
@@ -103,7 +91,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Experience',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/experience'
@@ -112,7 +99,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Onboarding',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/onboarding'
@@ -121,7 +107,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Annoncement',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/announcements'
@@ -130,7 +115,6 @@ export default [
     width: "22px",
     height: '22px',
     title: 'Documents',
-    feather: rightarrow,
     fw: "8px",
     fh: "14px",
     navLink: '/smartkit/documents'
