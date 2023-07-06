@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom'
 import { Fragment, useEffect } from 'react'
 import logos from '@src/assets/images/dashboardimg/test.png'
+import rgilogog2 from '../../../../../src/assets/images/smartkitimages/rgi logo 2.png'
 // ** Third Party Components
 import * as Icon from 'react-feather'
 
@@ -149,7 +150,7 @@ const NavbarBookmarks = props => {
         </NavItem>
       </ul> */}
       <ul className='nav navbar-nav align-items-center'>
-        <img src={logos} width="117px" height="60px" style={{marginLeft:"20px"}}></img>
+        <img src={rgilogog2} width="117px" height="60px" style={{marginLeft:"20px"}}></img>
         </ul>
       {/* <ul className='nav navbar-nav bookmark-icons align-items-center'>
         {renderBookmarks()}

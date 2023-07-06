@@ -17,6 +17,8 @@ import { NavItem, NavLink, UncontrolledButtonDropdown } from 'reactstrap'
 import Global_Popup from '../../../../adminanalytics/filter_popup'
 import { Button, Popover, PopoverHeader, PopoverBody, UncontrolledPopover } from 'reactstrap'
 import { getAdminProfile_APIcall } from './slice-navbar'
+import moment from 'moment'
+
 
 const NavbarSearch = (props) => {
   const [popoverOpen, setPopoverOpen] = useState(false)
@@ -31,6 +33,7 @@ const NavbarSearch = (props) => {
   const [placeholder, setplaceholder] = useState('Search by user name or subject...')
   const { pathname } = useLocation()
   const [hide, sethide] = useState()
+  const [getCurrentDate, setCurrentDate]= useState('')
 
   // useEffect(() => {
   // axios.get('/api/main-search/data').then(({ }) => {
@@ -149,31 +152,48 @@ const NavbarSearch = (props) => {
     }
   }, [])
 
+  useEffect(() => {
+    let getCurrentDate = new Date()
+    // const getTime = getDate(getCurrentDate)
+    // const getMonth = getMonth(getCurrentDate)
+    // const getYear = getYear(getCurrentDate)
+
+    const monthValue = moment(getCurrentDate).format('MMM')
+    const dateValue = moment(getCurrentDate).format('DD')
+    const yearValue = moment(getCurrentDate).format('YYYY')
+
+    const dateVal = monthValue + ', ' + dateValue + ' ' + yearValue
+    setCurrentDate(dateVal)
+
+
+  }, [])
+
   return (
     <NavItem className='nav-search' onClick={() => setNavbarSearch(true)} >
-      <NavLink className='nav-link-search' style={{ display: pathname === "/user/userSettings" || pathname === "/admin/Analytics" ? 'none' : 'flex' }}>
-        <div className='inputAlignment'>
+      {/* <NavLink className='nav-link-search' style={{ display: pathname === "/user/userSettings" || pathname === "/admin/Analytics" ? 'none' : 'flex' }}>
+         <div className='inputAlignment'>
           <img src={navsearching} className="iconChange" width="24px" height="24px"></img>
-          {/* <Icon.Search className="iconChange"></Icon.Search> */}
+          <Icon.Search className="iconChange"></Icon.Search>
           <input type="text" class="formcontrol form " style={{ width: "93%" }} placeholder={pathname === "/admin/groups" || pathname === "/admin/sponsorsevents" || pathname === "/admin/sponsorposts" || pathname === "/admin/sponsorgroups" ? "Search by event name or interest tag" : "Search by name, email, or mobile number"}>
-            {/* {pathname === "/admin/groups"? placeholder :'Search by name, email or mobile number'} */}
-            {/* <img src={navsearching} className="iconChange"></img> */}
+            {pathname === "/admin/groups"? placeholder :'Search by name, email or mobile number'}
+            <img src={navsearching} className="iconChange"></img>
           </input>
-        </div>
+        </div> 
       </NavLink>
       <NavLink className='nav-link-search' style={{ display: pathname === "/admin/Analytics" ? 'flex' : 'none' }}>
-        {/* <button className='buttonalign p-1 d-flex align-items-center' id="uncontrolledPopover"><img width="18px" height="16px"src={sortval}></img> &nbsp;&nbsp; <span className="filteralign">Filter By</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Icon.ChevronDown className='filteralign' style={{display:icon === true ? 'none' : 'block'}}></Icon.ChevronDown><Icon.ChevronUp className='filteralign' style={{display:icon === false ? 'none' : 'block'}}></Icon.ChevronUp>
-        </button> */}
+        <button className='buttonalign p-1 d-flex align-items-center' id="uncontrolledPopover"><img width="18px" height="16px"src={sortval}></img> &nbsp;&nbsp; <span className="filteralign">Filter By</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Icon.ChevronDown className='filteralign' style={{display:icon === true ? 'none' : 'block'}}></Icon.ChevronDown><Icon.ChevronUp className='filteralign' style={{display:icon === false ? 'none' : 'block'}}></Icon.ChevronUp>
+        </button>
         <span style={{ display: pathname === "/admin/Analytics" ? 'flex' : 'none' }}>
           <Global_Popup data={pathname}></Global_Popup>
         </span>
 
-      </NavLink>
+      </NavLink> */}
       {/* <div style={{display:pathname === "/admin/Analytics"?'flex':'none'}}>
           s;dls;dlsld
        </div> */}
       <li className="d-flex align-items-center text-center mt-75">
         {/* <img src={profile}  class="profilePic" ></img> */}
+        <span className='dateTime me-4'>{getCurrentDate}</span>
         <img src={usersquare_default} width="40px" height="40px" class="profilePic" style={{ borderRadius: "10px", backgroundColor: "#FFFFFF" }}></img>
         <div className='user-nav d-sm-flex d-none' width="173px">
           <Dropdown autoClose="inside" className='logout-dropdown'>

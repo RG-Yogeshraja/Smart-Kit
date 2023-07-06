@@ -29,6 +29,7 @@ import profiles from './userssettings'
 import AdminRoutes from './Admin'
 import HSRoutes from './adminDashboard'
 import AppVal from './adminDashboard'
+import SmartKitLazyPath from './SmartKitDashboard'
 const getLayout = {
   blank: <BlankLayout />,
   vertical: <VerticalLayout />,
@@ -48,6 +49,7 @@ console.log(AppVal)
 const Routes = [
   ...AuthenticationRoutes,
   ...AppVal, //HS project routes
+  ...SmartKitLazyPath, //Smart kit routes
   ...profiles,
   ...DashboardRoutes,
   ...AppRoutes,

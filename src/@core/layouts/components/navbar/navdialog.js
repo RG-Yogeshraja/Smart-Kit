@@ -69,10 +69,15 @@ const ExLogpopup = (props) => {
   return (
     <>
       <div onClick={() => handleShow('yno')}>
-        <span className='usersettings' >
+        <div className='usersettings' >
           <img src={logoutss} width="27px" height="27px"></img>&nbsp;&nbsp;
-          <span style={{ fontWeight: pathname === "/user/userSettings" ? '700' : '500' }}>Log Out</span>
-        </span>
+          <span style={{ fontWeight: pathname === "/user/userSettings" ? '700' : '500' }}>Profile</span>
+        </div>
+        <div className='usersettings mt-1' >
+          <img src={logoutss} width="27px" height="27px"></img>&nbsp;&nbsp;
+          <span style={{ fontWeight: pathname === "/user/userSettings" ? '700' : '500' }}>Settings</span>
+        </div>
+
       </div>
 
       <Modal className='dispflex'

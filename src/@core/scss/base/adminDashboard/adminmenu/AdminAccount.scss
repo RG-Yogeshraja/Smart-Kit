@@ -501,11 +501,16 @@ label {
     top: 3.9rem !important;
 }
 
-.spanText-noData{
+.spanText-noData {
     font-family: "Asap";
     font-style: "normal";
     font-weight: 600;
     font-size: 16px;
     line-height: 18px;
     color: #003B4A;
+}
+
+.dateTime{
+    color: white;
+    font-size: 18px;
 }

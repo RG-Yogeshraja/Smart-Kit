@@ -44,7 +44,7 @@ const VerticalNavMenuLink = ({ item, activeItem }) => {
             e.preventDefault()
           }
         }}>
-        <img className='alignment' src={item.icon} width={item.width} height={item.height} />
+        {/* <img className='alignment' src={item.icon} width={item.width} height={item.height} /> */}
         <span className='menu-item text-truncate menutext'>{t(item.title)}</span>
 
         {/* {item.badge && item.badgeText ? ( */}

@@ -25,136 +25,117 @@ export default [
 
 
   },
+
+  //smartkit lazy path start
   {
-    icon: Analytics,
     width: "22px",
     height: '22px',
-    title: 'Analytics',
-
-    badge: 'light-warning',
-
+    title: 'Home',
     feather: rightarrow,
     fw: "8px",
     fh: "14px",
-    navLink: '/admin/Analytics'
-
+    navLink: '/smartkit/home'
   },
   {
-    icon: User,
     width: "22px",
     height: '22px',
-    title: 'Users',
-
-    badge: 'light-warning',
-
+    title: 'Team',
     feather: rightarrow,
     fw: "8px",
     fh: "14px",
-    navLink: '/admin/users'
+    navLink: '/smartkit/teams'
   },
   {
-    icon: Groups,
     width: "22px",
     height: '22px',
-    title: 'Groups',
-    badgeText: '5',
-    badge: 'light-warning',
-
+    title: 'Projects',
     feather: rightarrow,
     fw: "8px",
     fh: "14px",
-    navLink: '/admin/groups'
-  },
-
-  {
-    icon: Events,
-    width: "22px",
-    height: '22px',
-    title: 'Events',
-
-    badge: 'light-warning',
-
-    feather: rightarrow,
-   
-    fw: "8px",
-    fh: "14px",
-    navLink: '/admin/events'
+    navLink: '/smartkit/projects'
   },
   {
-    icon: SponserShip,
     width: "22px",
     height: '22px',
-    title: 'Sponsorships',
-
-    badge: 'light-warning',
+    title: 'Tasks',
     feather: rightarrow,
-    feathers: Events,
     fw: "8px",
     fh: "14px",
-    children: [
-      {
-        id: 'analyticsDash',
-        title: 'Events',
-
-        navLink: '/admin/sponsorsevents'
-      },
-      {
-        id: 'eCommercePostsDash',
-        title: 'Posts',
-
-        navLink: '/admin/sponsorposts'
-      },
-      {
-        id: 'eCommerceDash',
-        title: 'Groups',
-
-        navLink: '/admin/sponsorgroups'
-
-      }
-
-    ]
+    navLink: '/smartkit/tasks'
   },
   {
-    icon: Reports,
     width: "22px",
     height: '22px',
-    title: 'Reports',
-
-    badge: 'light-warning',
-    badgeText: '5',
+    title: 'Appraisal',
     feather: rightarrow,
     fw: "8px",
     fh: "14px",
-    navLink: '/admin/reportsmains'
-
+    navLink: '/smartkit/appraisal'
   },
   {
-    icon: Messages,
     width: "22px",
     height: '22px',
-    title: 'Messages',
-
-    badge: 'light-warning',
-    badgeText: '5',
+    title: 'Productivity',
     feather: rightarrow,
     fw: "8px",
     fh: "14px",
-    navLink: '/admin/messages'
-
+    navLink: '/smartkit/productivity'
   },
   {
-    icon: LegalDocuments,
     width: "22px",
     height: '22px',
-    title: 'Legal Documents',
-
-    badge: 'light-warning',
-
+    title: 'Leaves',
     feather: rightarrow,
     fw: "8px",
     fh: "14px",
-    navLink: "/admin/Termsofservice"
+    navLink: '/smartkit/leaves'
+  },
+  {
+    width: "22px",
+    height: '22px',
+    title: 'Late coming',
+    feather: rightarrow,
+    fw: "8px",
+    fh: "14px",
+    navLink: '/smartkit/latecoming'
+  },
+  {
+    width: "22px",
+    height: '22px',
+    title: 'Experience',
+    feather: rightarrow,
+    fw: "8px",
+    fh: "14px",
+    navLink: '/smartkit/experience'
+  },
+  {
+    width: "22px",
+    height: '22px',
+    title: 'Onboarding',
+    feather: rightarrow,
+    fw: "8px",
+    fh: "14px",
+    navLink: '/smartkit/onboarding'
+  },
+  {
+    width: "22px",
+    height: '22px',
+    title: 'Annoncement',
+    feather: rightarrow,
+    fw: "8px",
+    fh: "14px",
+    navLink: '/smartkit/announcements'
+  },
+  {
+    width: "22px",
+    height: '22px',
+    title: 'Documents',
+    feather: rightarrow,
+    fw: "8px",
+    fh: "14px",
+    navLink: '/smartkit/documents'
+  },
 
-  }
+  //smartkit lazy path ends
 
 ]
